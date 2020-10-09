@@ -1,8 +1,8 @@
 package queue;
 
-public class Queue<V> {
+public class Queue<T> {
     private int maxSize;
-    private V[] array;
+    private T[] array;
     private int front;
     private int back;
     private int currentSize;
@@ -16,7 +16,7 @@ public class Queue<V> {
     @SuppressWarnings("unchecked")
     public Queue(int maxSize) {
         this.maxSize = maxSize;
-        array = (V[]) new Object[maxSize];
+        array = (T[]) new Object[maxSize]; //Casting
         front = 0;
         back = -1;
         currentSize = 0;
@@ -30,7 +30,7 @@ public class Queue<V> {
         return currentSize;
     }
 
-    public V top() {
+    public T top() {
         return array[front];
     }
 
@@ -42,7 +42,7 @@ public class Queue<V> {
         return currentSize == maxSize;
     }
 
-    public void enqueue(V value) {
+    public void enqueue(T value) {
         if (isFull())
             return;
         back = (back + 1) % maxSize; //to keep the index in range
@@ -50,11 +50,11 @@ public class Queue<V> {
         currentSize++;
     }
 
-    public V dequeue() {
+    public T dequeue() {
         if (isEmpty())
             return null;
 
-        V temp = array[front];
+        T temp = array[front];
         front = (front + 1) % maxSize; //to keep the index in range
         currentSize--;
 

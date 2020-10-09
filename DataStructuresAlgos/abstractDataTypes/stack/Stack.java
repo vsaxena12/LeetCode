@@ -6,6 +6,15 @@ class Stack<T> //Use of Generic in Java
 	private T stackArray[];
 	private int top;
 	
+	/*
+    Java does not allow generic type arrays. So we have used an
+    array of Object type and type-casted it to the generic type T.
+    This type-casting is unsafe and produces a warning.
+    Comment out the line below and execute again to see the warning.
+    */
+	
+	
+	
 	@SuppressWarnings("unchecked") //To Suppress the Warnings 
 	Stack(int size)
 	{
