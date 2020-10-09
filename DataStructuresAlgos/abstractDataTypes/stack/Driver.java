@@ -1,6 +1,6 @@
 package stack;
 
-public class StackDemo {
+public class Driver {
 	public static void main(String args[])
 	{
 		Stack<String> stack = new Stack<String>(5);
