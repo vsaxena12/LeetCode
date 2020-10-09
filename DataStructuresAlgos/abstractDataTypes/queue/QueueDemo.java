@@ -1,6 +1,6 @@
 package queue;
 
-class Driver {
+class QueueDemo {
 	 
 	public static void main(String[] args) {
 		Queue<Integer> queue = new Queue<Integer>(5);
