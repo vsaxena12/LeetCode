@@ -44,10 +44,11 @@ class Stack
 	
 	void print()
 	{
-		for(int i = 0; i<stackArray.length; i++)
+		for(int i = 0; i<stackArray.length; ++i)
 		{
 			System.out.println(stackArray[i]);
 		}
+		System.out.println("-----------------------------------");
 	}
 	
 }

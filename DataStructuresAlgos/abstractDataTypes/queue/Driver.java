@@ -1,10 +1,15 @@
 package queue;
 
-public class Driver {
-
+class Driver {
+	 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Queue<Integer> queue = new Queue<Integer>(5);
+        System.out.print("You have successfully created a Queue!");
+        queue.enqueue(34);
+        queue.enqueue(44);
+        queue.enqueue(34);
+        
+        
+        
 	}
-
 }
