@@ -40,9 +40,15 @@ public class Queue<T>
 		else
 		{
 			front++;
-			T del = queueArray[front];
+			//T del = queueArray[front];
 		}
 		
+	}
+	
+	public T returnDeletedElement()
+	{
+		T del = queueArray[front];
+		return del;
 	}
 	
 	public boolean isEmpty()
@@ -63,7 +69,7 @@ public class Queue<T>
 	
 	public void print()
 	{
-		for(int i = front+1; i<=rear; ++i)
+		for(int i = front+1; i<rear; i++)
 		{ 
 			System.out.print(queueArray[i]+" ");
 		}

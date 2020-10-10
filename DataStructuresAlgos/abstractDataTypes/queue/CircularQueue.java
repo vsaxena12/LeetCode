@@ -18,23 +18,33 @@ public class CircularQueue<T> {
 		this.front = 0;
 	}
 	
+	
 	public void enqueue(T data)
 	{
 		if(isFull())
+		{
 			System.out.println("Cannot Enter the Data");
+		}
+		
 		else
-			//System.out.print("Enter the Value: ");
-			rear++;
+		{
+			rear = (rear+1)%maxSize;
 			queueArray[rear] = data;
+		}
 	}
 	
 	public void dequeue()
 	{
 		if(isEmpty())
+		{
 			System.out.println("Queue is Empty");
+		}
 		else
-			front++;
-			T del = queueArray[front];
+		{
+			front = (front+1)%maxSize;
+			//T del = queueArray[front];
+		}
+		
 	}
 	
 	public boolean isEmpty()
@@ -47,7 +57,7 @@ public class CircularQueue<T> {
 	
 	public boolean isFull()
 	{
-		if(rear == maxSize-1)
+		if((rear+1)%maxSize == front)
 			return true;
 		else
 			return false;
@@ -55,10 +65,14 @@ public class CircularQueue<T> {
 	
 	public void print()
 	{
-		for(int i = front+1; i<queueArray.length; ++i)
-		{ 
+		int i = front+1;
+		
+		do {
 			System.out.print(queueArray[i]+" ");
+			i = (i+1)%maxSize;
 		}
+		while(i != (rear+1)%maxSize);
+		
 		System.out.println("\n-----------------------------------");
 	}
 	

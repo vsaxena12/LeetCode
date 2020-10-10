@@ -19,7 +19,9 @@ public class Driver {
 		queue.enqueue("75");
 		queue.enqueue("85");
 		queue.print();
-		
+		queue.dequeue();
+		queue.print();
+		System.out.println("Deleted Element: "+ queue.returnDeletedElement());
 		//queue.dequeue();
 		//queue.print();
 		//queue.printRecentlyDeletedElement();
@@ -43,6 +45,11 @@ public class Driver {
 		circularQueue.enqueue("75");
 		circularQueue.enqueue("85");
 		circularQueue.print();
+		circularQueue.dequeue();
+		circularQueue.print();
+		circularQueue.enqueue("85");
+		circularQueue.print();
+		
 	}
 	
 	
