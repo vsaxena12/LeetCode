@@ -1,48 +1,40 @@
 package queue;
 
-public class Queue<T>
-{
+public class CircularQueue<T> {
+	
 	private T queueArray[];
 	private int rear;
 	private int front;
 	private int maxSize;
+	
 	//private int currentSize;
 	
 	@SuppressWarnings("unchecked")
-	Queue(int maxSize)
+	CircularQueue(int maxSize)
 	{
 		this.maxSize = maxSize;
 		this.queueArray = (T[])new Object[maxSize];
-		this.rear = -1;
-		this.front = -1;
+		this.rear = 0;
+		this.front = 0;
 	}
 	
 	public void enqueue(T data)
 	{
 		if(isFull())
-		{
 			System.out.println("Cannot Enter the Data");
-		}
-		
 		else
-		{
+			//System.out.print("Enter the Value: ");
 			rear++;
 			queueArray[rear] = data;
-		}
 	}
 	
 	public void dequeue()
 	{
 		if(isEmpty())
-		{
 			System.out.println("Queue is Empty");
-		}
 		else
-		{
 			front++;
 			T del = queueArray[front];
-		}
-		
 	}
 	
 	public boolean isEmpty()
@@ -63,7 +55,7 @@ public class Queue<T>
 	
 	public void print()
 	{
-		for(int i = front+1; i<=rear; ++i)
+		for(int i = front+1; i<queueArray.length; ++i)
 		{ 
 			System.out.print(queueArray[i]+" ");
 		}
@@ -74,6 +66,5 @@ public class Queue<T>
 	{
 		System.out.println(queueArray[front]);
 	}
-	
-	
+
 }

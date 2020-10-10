@@ -3,11 +3,14 @@ import java.util.Scanner;
 
 public class Driver {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner scan = new Scanner(System.in);
+	private static Scanner scan;
+	private static int size;
+	
+	public static void queue()
+	{
+		scan = new Scanner(System.in);
 		System.out.print("Decide the size of the Queue: ");
-		int size = scan.nextInt();
+		size = scan.nextInt();
 		
 		Queue<String> queue = new Queue<String>(size);
 		queue.enqueue("45");
@@ -25,7 +28,46 @@ public class Driver {
 		//queue.print();
 		
 		scan.close();
+	}
+	
+	public static void circularQueue()
+	{
+		scan = new Scanner(System.in);
+		System.out.print("Decide the size of the Circular Queue: ");
+		size = scan.nextInt();
 		
+		CircularQueue<String> circularQueue = new CircularQueue<String>(size);
+		circularQueue.enqueue("45");
+		circularQueue.enqueue("55");
+		circularQueue.enqueue("65");
+		circularQueue.enqueue("75");
+		circularQueue.enqueue("85");
+		circularQueue.print();
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("select the Queues: 1. Queue 2. Circular Queue");
+		int select = scanner.nextInt();
+		switch(select)
+		{
+			case 1:
+				System.out.println("Run Queue");
+				queue();
+				break;
+				
+			case 2:
+				System.out.println("Run Circular Queue");
+				circularQueue();
+				break;
+			
+			default:
+				System.out.println("Error");
+		}
+		
+		scanner.close();
 	}
 
 }
