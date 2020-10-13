@@ -11,11 +11,19 @@ class ArrayListTest
 		str.add("3");
 		str.add("4");
 		str.add("5");
-		str.add("6");
 		
 		System.out.print(str);
 		str.remove("3"); //Removing Object
 		System.out.print(str);
+		
+		str.add(0,"100");
+		System.out.print(str);
+		
+		str.removeAll(str);
+		System.out.println(str);
+		
+		str.retainAll(str);
+		System.out.println(str);
 		
 	}
 }
