@@ -8,7 +8,12 @@ public class Driver
 	//static Node head; //It is a reference pointer
 	public static void main(String args[]) //Point of Execution
 	{
+		insertLinkedListCode();
 
+	}
+
+	public static void insertLinkedListCode()
+	{
 		Node head = null;
 		System.out.println("Head: "+head);
 		
@@ -28,19 +33,6 @@ public class Driver
 		linkedList.printNodeAtEnd();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-		
 		/*
 		Node head = null;
 		System.out.println("Head: "+head);
@@ -71,7 +63,5 @@ public class Driver
 		temp = linkedList.moveNodeToFront(head,20);
 		linkedList.printNode();
 		*/
-
-
 	}
 }
