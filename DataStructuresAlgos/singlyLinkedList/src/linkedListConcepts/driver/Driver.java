@@ -18,20 +18,21 @@ public class Driver
 		System.out.println("Head: "+head);
 		
 		System.out.println("Starting LinkedList");
-		LinkedListInsert linkedList = new LinkedListInsert();
-		linkedList.insertAtEnd(10);
-		linkedList.insertAtEnd(40);
-		linkedList.insertAtEnd(30);
-		linkedList.insertAtEnd(60);
+		LinkedListInsert<String> linkedList = new LinkedListInsert<String>();
+		linkedList.insertAtEnd("Hi");
+		linkedList.insertAtEnd("I");
+		linkedList.insertAtEnd("am");
+		linkedList.insertAtEnd(".");
+		//linkedList.printNodeAtEnd();
+		linkedList.insertAtEnd("How");
+		linkedList.insertAtEnd("About ");
+		//linkedList.printNodeAtEnd();
+		linkedList.insertAtHead("you");
+		//linkedList.printNodeAtEnd();
+		linkedList.insertAtGivenIndex("good",3);
 		linkedList.printNodeAtEnd();
-		linkedList.insertAtEnd(40);
-		linkedList.insertAtEnd(80);
+		linkedList.deleteNodeAtHead();
 		linkedList.printNodeAtEnd();
-		linkedList.insertAtHead(50);
-		linkedList.printNodeAtEnd();
-		linkedList.insertAtGivenIndex(20,3);
-		linkedList.printNodeAtEnd();
-
 
 		/*
 		Node head = null;

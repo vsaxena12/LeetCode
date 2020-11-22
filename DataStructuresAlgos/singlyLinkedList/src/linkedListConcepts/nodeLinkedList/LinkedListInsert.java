@@ -1,13 +1,13 @@
 package linkedListConcepts.nodeLinkedList;
 
-public class LinkedListInsert
+public class LinkedListInsert<T>
 {
 	public Node head = null;
 
 	//Insert the Node at the End - 
-	public void insertAtEnd(int num)
+	public void insertAtEnd(T data)
 	{
-		Node node = new Node(num);
+		Node node = new Node(data);
 
 		if(head == null)
 		{
@@ -27,9 +27,9 @@ public class LinkedListInsert
 	}
 
 	//Insert Node at Head
-	public void insertAtHead(int num) //takes constant time 
+	public void insertAtHead(T data) //takes constant time 
 	{
-		Node nodeToHead = new Node(num);
+		Node nodeToHead = new Node(data);
 		if(head == null)
 		{
 			head = nodeToHead;
@@ -43,9 +43,9 @@ public class LinkedListInsert
 	}
 
 	//Insert at given Node/ Index
-	public void insertAtGivenIndex(int num, int index)
+	public void insertAtGivenIndex(T data, int index)
 	{
-		Node nodeAtIndex = new Node(num);
+		Node nodeAtIndex = new Node(data);
 		if(head == null)
 		{
 			head = nodeAtIndex;
@@ -63,6 +63,29 @@ public class LinkedListInsert
 
 		}
 	}
+
+	//Delete a Node 
+	public void deleteNodeAtHead()
+	{
+		Node returnDeletedHead = null;
+		if(head == null)
+		{
+			System.out.println("Linked List is Empty");
+			return;
+		}
+
+		else
+		{
+			Node temp = head;
+			returnDeletedHead = head;
+			head = temp.getNode();
+		}
+		System.out.println("Deleted Head: "+returnDeletedHead.getData());
+		System.out.println("Current Head: "+head.getData());
+		System.out.println("--------------------------------*END*--------------------------------");
+
+	}
+
 
 	public void printNodeAtEnd()
 	{

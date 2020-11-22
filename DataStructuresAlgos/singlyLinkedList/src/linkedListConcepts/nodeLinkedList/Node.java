@@ -1,22 +1,22 @@
 package linkedListConcepts.nodeLinkedList;
 
-public class Node 
+public class Node<T>
 {
-	private int data;
+	private T data;
 	private Node next;
-	
-	public Node(int data){
+
+	public Node(T data){
 		this.data = data;
 		next = null;
 
 	}
 
-	public void setData(int data)
+	public void setData(T data)
 	{
 		this.data = data;
 	}
 
-	public int getData()
+	public T getData()
 	{
 		return data;
 	}
