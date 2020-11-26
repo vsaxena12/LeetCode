@@ -1,5 +1,7 @@
 package recursion.driver;
 
+import recursion.letsDoRecursion.Recursion;
+
 
 public class Driver
 {
@@ -12,6 +14,11 @@ public class Driver
 
 	public static void recursion()
 	{
-		System.out.println("Recursion ");
+		Recursion recurr = new Recursion();
+		recurr.fun1(4);
+		recurr.fun2(4);
+
+		System.out.println(recurr.sumOfNaturalNumbers(5));
+
 	}
 }
