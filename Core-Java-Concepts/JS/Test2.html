@@ -1,0 +1,38 @@
+<script>
+	console.log("Test");
+	console.log("TEST2");
+	var name = "Varun";
+	var myName = "My Name is " + name;
+	console.log(myName);
+
+	var loc = "New York";
+	var myLocation = "My Location is " + loc;
+	console.log(myLocation);
+	console.log(myLocation.length);
+	
+	for(let i = 0; i<myLocation.length; i++){
+		let firstLetter = myLocation[i];
+		console.log(firstLetter);	
+	}
+
+	//First Element -> first element wil always start with [0]
+	var myFirstLetter = myLocation[myLocation.length - 2];
+	console.log("My First Letter: "+myFirstLetter);
+
+	//Find the last element
+	var myLastLetter = myLocation[myLocation.length - 1];
+	console.log("Last Element is : "+myLastLetter);
+	var ourArray = [50,60,70];
+	console.log(ourArray[0]);
+
+	//push
+	var myPush = [23,30,40];
+	myPush.push(50);
+	console.log(myPush);
+
+	//pop
+	var myPop = [1,2,4];
+	myPop.pop();
+	console.log(myPop);
+</script>
+

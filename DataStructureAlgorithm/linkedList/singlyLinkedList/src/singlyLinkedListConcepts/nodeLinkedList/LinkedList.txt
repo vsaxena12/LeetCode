@@ -1,0 +1,149 @@
+package linkedListConcepts.nodeLinkedList;
+
+public class LinkedList
+{
+	public Node head = null;
+
+	//Insert the Node at the End - 
+	public void insertNode(int num)
+	{
+		Node node = new Node(num);
+
+		if(head == null)
+		{
+			head = node;
+		}
+		else
+		{
+			Node temp = head;
+			while(temp.next != null)
+			{
+				temp = temp.next;
+			}
+			temp.next = node;
+		}
+
+	}
+
+	public void printNode()
+	{
+		Node temp = head;
+		while(temp != null)
+		{
+			System.out.println("Value: "+temp.data+" -> "+"Address: "+temp.next);
+			temp = temp.next;
+		}
+	}
+
+	//Count Number of Nodes
+	public void countNodes(Node countTemp) //xyz = null
+	{
+		countTemp = head;
+		int count = 0;
+		while(countTemp != null)
+		{
+			count++;
+			countTemp = countTemp.next;
+		}
+		System.out.println("Count Nodes: "+count);
+	}
+
+	//Sum of Nodes
+	public void sumOfNodes(Node addNodeTemp)
+	{
+		System.out.println("AddNodeTemp: "+addNodeTemp);
+		
+		addNodeTemp = head; //addNodeTemp is no longer null
+		System.out.println("AddNodeTemp: "+addNodeTemp.data+" -> "+addNodeTemp.next);
+
+		int sum = 0;
+		while(addNodeTemp != null)
+		{
+			sum = sum + addNodeTemp.data;
+			addNodeTemp = addNodeTemp.next;
+		}
+		System.out.println("Sums Nodes: "+sum);
+	}
+
+	//Maximum Element
+	public void maxElement(Node maxNode)
+	{
+		maxNode = head;
+		int maxValue = Integer.MIN_VALUE;
+		System.out.println("Default Max Value: "+maxValue);
+
+		while(maxNode != null)
+		{
+			if(maxNode.data >= maxValue)
+			{
+				maxValue = maxNode.data;
+				System.out.println("Max Element Traversal: "+maxValue);
+			}
+			maxNode = maxNode.next;
+		}
+
+		System.out.println("Max Element: "+maxValue);
+
+	}
+
+	//Searching Node in a LinkedList
+	public Node linearSearch(Node searchNode, int key)
+	{
+		searchNode = head;
+		boolean flag = false;
+		if(head == null)
+		{
+			return null;
+		}
+		else
+		{
+			while(searchNode != null)
+			{
+				//System.out.println("Test Code");
+				if(searchNode.data == key)
+				{
+					flag = true;
+					return (searchNode);
+				}
+				searchNode = searchNode.next;
+			}
+			
+		}
+		return null;
+	}
+
+	public Node moveNodeToFront(Node moveNode, int key)
+	{
+		moveNode = head;
+		Node temp = null;
+		if(head == null)
+		{
+			return null;
+		}
+		else
+		{
+			while(moveNode != null)
+			{
+				if(moveNode.data == key)
+				{
+					temp.next = moveNode.next;
+					moveNode.next = head;
+					head = moveNode;
+					return moveNode;
+				}
+
+				temp = moveNode;
+				moveNode = moveNode.next;
+			}
+		}
+		return null;
+	}
+}
+
+
+
+
+
+
+
+
