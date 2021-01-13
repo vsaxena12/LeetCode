@@ -1,0 +1,15 @@
+/Volumes/iFAANG/LeetCode/DataStructureAlgorithms/Arrays/bin/Debug/net5.0/Arrays.deps.json
+/Volumes/iFAANG/LeetCode/DataStructureAlgorithms/Arrays/bin/Debug/net5.0/Arrays.runtimeconfig.json
+/Volumes/iFAANG/LeetCode/DataStructureAlgorithms/Arrays/bin/Debug/net5.0/Arrays.runtimeconfig.dev.json
+/Volumes/iFAANG/LeetCode/DataStructureAlgorithms/Arrays/bin/Debug/net5.0/Arrays.dll
+/Volumes/iFAANG/LeetCode/DataStructureAlgorithms/Arrays/bin/Debug/net5.0/ref/Arrays.dll
+/Volumes/iFAANG/LeetCode/DataStructureAlgorithms/Arrays/bin/Debug/net5.0/Arrays.pdb
+/Volumes/iFAANG/LeetCode/DataStructureAlgorithms/Arrays/obj/Debug/net5.0/Arrays.csprojAssemblyReference.cache
+/Volumes/iFAANG/LeetCode/DataStructureAlgorithms/Arrays/obj/Debug/net5.0/Arrays.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/iFAANG/LeetCode/DataStructureAlgorithms/Arrays/obj/Debug/net5.0/Arrays.AssemblyInfoInputs.cache
+/Volumes/iFAANG/LeetCode/DataStructureAlgorithms/Arrays/obj/Debug/net5.0/Arrays.AssemblyInfo.cs
+/Volumes/iFAANG/LeetCode/DataStructureAlgorithms/Arrays/obj/Debug/net5.0/Arrays.csproj.CoreCompileInputs.cache
+/Volumes/iFAANG/LeetCode/DataStructureAlgorithms/Arrays/obj/Debug/net5.0/Arrays.dll
+/Volumes/iFAANG/LeetCode/DataStructureAlgorithms/Arrays/obj/Debug/net5.0/ref/Arrays.dll
+/Volumes/iFAANG/LeetCode/DataStructureAlgorithms/Arrays/obj/Debug/net5.0/Arrays.pdb
+/Volumes/iFAANG/LeetCode/DataStructureAlgorithms/Arrays/obj/Debug/net5.0/Arrays.genruntimeconfig.cache
