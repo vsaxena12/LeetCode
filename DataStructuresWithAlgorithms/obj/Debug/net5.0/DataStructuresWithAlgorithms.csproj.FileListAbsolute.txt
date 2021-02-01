@@ -1,0 +1,15 @@
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/obj/Debug/net5.0/DataStructuresWithAlgorithms.csprojAssemblyReference.cache
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/obj/Debug/net5.0/DataStructuresWithAlgorithms.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/obj/Debug/net5.0/DataStructuresWithAlgorithms.AssemblyInfoInputs.cache
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/obj/Debug/net5.0/DataStructuresWithAlgorithms.AssemblyInfo.cs
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/obj/Debug/net5.0/DataStructuresWithAlgorithms.csproj.CoreCompileInputs.cache
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/bin/Debug/net5.0/DataStructuresWithAlgorithms.deps.json
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/bin/Debug/net5.0/DataStructuresWithAlgorithms.runtimeconfig.json
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/bin/Debug/net5.0/DataStructuresWithAlgorithms.runtimeconfig.dev.json
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/bin/Debug/net5.0/DataStructuresWithAlgorithms.dll
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/bin/Debug/net5.0/ref/DataStructuresWithAlgorithms.dll
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/bin/Debug/net5.0/DataStructuresWithAlgorithms.pdb
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/obj/Debug/net5.0/DataStructuresWithAlgorithms.dll
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/obj/Debug/net5.0/ref/DataStructuresWithAlgorithms.dll
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/obj/Debug/net5.0/DataStructuresWithAlgorithms.pdb
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/obj/Debug/net5.0/DataStructuresWithAlgorithms.genruntimeconfig.cache
