@@ -1,0 +1,15 @@
+/Volumes/iFAANG/LeetCode/OOPs/Collections/ArrayBasedImplementation/obj/Debug/net5.0/ArrayBasedImplementation.csprojAssemblyReference.cache
+/Volumes/iFAANG/LeetCode/OOPs/Collections/ArrayBasedImplementation/obj/Debug/net5.0/ArrayBasedImplementation.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/iFAANG/LeetCode/OOPs/Collections/ArrayBasedImplementation/obj/Debug/net5.0/ArrayBasedImplementation.AssemblyInfoInputs.cache
+/Volumes/iFAANG/LeetCode/OOPs/Collections/ArrayBasedImplementation/obj/Debug/net5.0/ArrayBasedImplementation.AssemblyInfo.cs
+/Volumes/iFAANG/LeetCode/OOPs/Collections/ArrayBasedImplementation/obj/Debug/net5.0/ArrayBasedImplementation.csproj.CoreCompileInputs.cache
+/Volumes/iFAANG/LeetCode/OOPs/Collections/ArrayBasedImplementation/bin/Debug/net5.0/ArrayBasedImplementation.deps.json
+/Volumes/iFAANG/LeetCode/OOPs/Collections/ArrayBasedImplementation/bin/Debug/net5.0/ArrayBasedImplementation.runtimeconfig.json
+/Volumes/iFAANG/LeetCode/OOPs/Collections/ArrayBasedImplementation/bin/Debug/net5.0/ArrayBasedImplementation.runtimeconfig.dev.json
+/Volumes/iFAANG/LeetCode/OOPs/Collections/ArrayBasedImplementation/bin/Debug/net5.0/ArrayBasedImplementation.dll
+/Volumes/iFAANG/LeetCode/OOPs/Collections/ArrayBasedImplementation/bin/Debug/net5.0/ref/ArrayBasedImplementation.dll
+/Volumes/iFAANG/LeetCode/OOPs/Collections/ArrayBasedImplementation/bin/Debug/net5.0/ArrayBasedImplementation.pdb
+/Volumes/iFAANG/LeetCode/OOPs/Collections/ArrayBasedImplementation/obj/Debug/net5.0/ArrayBasedImplementation.dll
+/Volumes/iFAANG/LeetCode/OOPs/Collections/ArrayBasedImplementation/obj/Debug/net5.0/ref/ArrayBasedImplementation.dll
+/Volumes/iFAANG/LeetCode/OOPs/Collections/ArrayBasedImplementation/obj/Debug/net5.0/ArrayBasedImplementation.pdb
+/Volumes/iFAANG/LeetCode/OOPs/Collections/ArrayBasedImplementation/obj/Debug/net5.0/ArrayBasedImplementation.genruntimeconfig.cache
