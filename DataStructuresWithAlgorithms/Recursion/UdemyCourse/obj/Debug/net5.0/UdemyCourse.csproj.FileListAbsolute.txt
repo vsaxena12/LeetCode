@@ -1,0 +1,15 @@
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/Recursion/UdemyCourse/obj/Debug/net5.0/UdemyCourse.csprojAssemblyReference.cache
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/Recursion/UdemyCourse/obj/Debug/net5.0/UdemyCourse.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/Recursion/UdemyCourse/obj/Debug/net5.0/UdemyCourse.AssemblyInfoInputs.cache
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/Recursion/UdemyCourse/obj/Debug/net5.0/UdemyCourse.AssemblyInfo.cs
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/Recursion/UdemyCourse/obj/Debug/net5.0/UdemyCourse.csproj.CoreCompileInputs.cache
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/Recursion/UdemyCourse/bin/Debug/net5.0/UdemyCourse.deps.json
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/Recursion/UdemyCourse/bin/Debug/net5.0/UdemyCourse.runtimeconfig.json
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/Recursion/UdemyCourse/bin/Debug/net5.0/UdemyCourse.runtimeconfig.dev.json
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/Recursion/UdemyCourse/bin/Debug/net5.0/UdemyCourse.dll
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/Recursion/UdemyCourse/bin/Debug/net5.0/ref/UdemyCourse.dll
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/Recursion/UdemyCourse/bin/Debug/net5.0/UdemyCourse.pdb
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/Recursion/UdemyCourse/obj/Debug/net5.0/UdemyCourse.dll
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/Recursion/UdemyCourse/obj/Debug/net5.0/ref/UdemyCourse.dll
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/Recursion/UdemyCourse/obj/Debug/net5.0/UdemyCourse.pdb
+/Volumes/iFAANG/LeetCode/DataStructuresWithAlgorithms/Recursion/UdemyCourse/obj/Debug/net5.0/UdemyCourse.genruntimeconfig.cache
