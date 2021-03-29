@@ -26,6 +26,8 @@ public class SinglyLinkedList
 	}
 
 	
+
+	
 	public void print()
 	{
 		Node temp = head;
@@ -34,9 +36,8 @@ public class SinglyLinkedList
 			System.out.println(temp.data);
 			temp = temp.next;
 		}
-
-
 	}
+
 
 
 

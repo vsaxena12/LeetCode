@@ -5,16 +5,17 @@ public class Node
 	public int data;
 	public Node next;
 	
-	/*
-	Node(){
+	
+	public Node(){
 
 	}
 
-	Node(int data)
+	public Node(int data)
 	{
 		this.data = data;
 	}
 
+	/*
 	Node(int data, Node next)
 	{
 		this.data = data;
