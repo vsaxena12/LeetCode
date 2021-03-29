@@ -4,6 +4,12 @@ import LinkedList.singlyLinkedList.ReverseLinkedList;
 
 class Driver
 {
+	public static void reverseLinkedList()
+	{
+		ReverseLinkedList reverse = new ReverseLinkedList(); //reverseLinkedList();
+		reverse.reverseLinkedList();
+	}
+
 	public static void main(String[] args)
 	{
 		SinglyLinkedList sLL = new SinglyLinkedList();
@@ -17,8 +23,9 @@ class Driver
 		sLL.print();
 
 
-		ReverseLinkedList reverse = new ReverseLinkedList(); //reverseLinkedList();
-		reverse.reverseLinkedList();
+		//Reverse a LinkedList
+		reverseLinkedList();
+		
 		
 	}
 }

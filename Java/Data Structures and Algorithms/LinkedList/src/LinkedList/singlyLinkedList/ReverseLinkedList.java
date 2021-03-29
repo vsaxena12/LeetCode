@@ -46,6 +46,4 @@ public class ReverseLinkedList
           result = result.next;
       }
   }
-
-
 }
