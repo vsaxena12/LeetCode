@@ -8,19 +8,23 @@ class Driver
 	{
 		ReverseLinkedList reverse = new ReverseLinkedList(); //reverseLinkedList();
 		reverse.reverseLinkedList();
+
 	}
 
 	public static void main(String[] args)
 	{
 		SinglyLinkedList sLL = new SinglyLinkedList();
-		
+		/*
 		sLL.insert(10);
 		sLL.insert(20);
 		sLL.insert(30);
 		sLL.insert(40);
 		sLL.insert(50);
+		*/
 
-		sLL.print();
+		//sLL.findMid();
+		//sLL.print();
+		/**/
 
 
 		//Reverse a LinkedList

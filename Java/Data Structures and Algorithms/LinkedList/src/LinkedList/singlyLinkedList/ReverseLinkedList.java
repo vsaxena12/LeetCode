@@ -8,26 +8,25 @@ public class ReverseLinkedList
 	{
     	// TODO: Write your code here
     	Node current = head;
-    	Node previous = null;
-    	Node next = null;
+      Node previous = null;
+      Node next = null;
+
       System.out.print("Nodes of the LinkedList are: ");
-    	while(head != null)
-    	{
-      		System.out.print(head.data+"  ");
-      		head = head.next;
-    	}
+      while(current != null)
+      {
+        System.out.print(current.data+" ");
+        current = current.next;
+      }
 
-    	System.out.print("\n");
-
-    	while(current != null)
-    	{
-	      	next = current.next;
-	      	current.next = previous; //Important Move -- breaking the node
-	      	previous = current;
-	      	current = next;
-	    }
-
-    	return previous;
+      //System.out.println();
+      while(current != null)
+      {
+        next = current.next;
+        current.next = previous;
+        previous = current;
+        current = next;
+      }
+      return previous;
   }
 
   public void reverseLinkedList()
