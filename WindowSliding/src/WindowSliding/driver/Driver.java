@@ -4,19 +4,18 @@ import WindowSliding.ProblemStatements.AverageOfSubarrayOfSize;
 
 public class Driver
 {
-	public static void main(String[] args) 
+	public static void maxSumSubArrayOfSizeK() 
 	{
-    	System.out.println("Length of the longest substring: " + LongestSubstringKDistinct.findLength("araaci", 2));
-    	System.out.println("Length of the longest substring: " + LongestSubstringKDistinct.findLength("araaci", 1));
-    	System.out.println("Length of the longest substring: " + LongestSubstringKDistinct.findLength("cbbebi", 3));
+    	MaxSumSubArrayOfSizeK resultSumArrayOfSizeK = new MaxSumSubArrayOfSizeK();
+    	System.out.println("Maximum sum of a subarray of size K: "
+    		+resultSumArrayOfSizeK.findMaxSumSubArray(2, new int[] {2,1,5,1,3,2}));
   	}
 
   	
 	public static void main(String args[])
 	{
 		System.out.println("Test");
-
-		AverageOfSubarrayOfSize result = new AverageOfSubarrayOfSize();
-		result.result();
+		maxSumSubArrayOfSizeK();
+		
 	}
 }
