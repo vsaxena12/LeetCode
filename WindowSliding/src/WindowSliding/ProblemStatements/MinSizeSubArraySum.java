@@ -3,33 +3,20 @@ package WindowSliding.ProblemStatements;
 //Need to discuss
 public class MinSizeSubArraySum
 {
-	public int minSubArrayLen(int target, int[] nums) 
-	{
-        int startWindow = 0;
-        int endWindow = 0;
-        int sum = 0;
-        int result[] = new int[endWindow - startWindow + 1];
+	public int minSubArrayLen(int S, int[] arr) {
         
-        int count = 0;
-        
-        for(endWindow=0; endWindow<nums.length; endWindow++)
-        {
-            sum = sum + nums[endWindow];
-            
-            //sum>target => startWindow++ =>
-            while(sum >= target)
-            {
-                sum = sum - nums[startWindow];
-                startWindow++;   
+        int windowSum = 0, minLength = Integer.MAX_VALUE;
+        int windowStart = 0;
+        for (int windowEnd = 0; windowEnd < arr.length; windowEnd++) {
+        windowSum += arr[windowEnd]; // add the next element
+      
+        while (windowSum >= S) {
+            minLength = Math.min(minLength, windowEnd - windowStart + 1);
+            windowSum -= arr[windowStart]; // subtract the element going out
+            windowStart++; // slide the window ahead
             }
-            
-        } 
-        
-        if(sum<=target)
-            return 0;
-        else
-            return count = endWindow - startWindow + 1;
-        
-        //return count;
-    }	
+        }
+
+        return minLength == Integer.MAX_VALUE ? 0 : minLength;
+    }
 }
