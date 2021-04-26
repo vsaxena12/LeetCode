@@ -1,5 +1,5 @@
-package binaryTree.binarySearch;
-import binaryTree.binaryNode.Node;
+package binarySearch;
+import binaryNode.Node;
 
 public class BST_Iteration implements BST
 {

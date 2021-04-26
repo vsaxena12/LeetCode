@@ -1,8 +1,8 @@
-package binaryTree.driver;
+package driver;
 import java.util.*;
-import binaryTree.binarySearch.BST_Iteration;
-import binaryTree.binarySearch.BST;
-import binaryTree.binaryNode.Node;
+import binarySearch.BST_Iteration;
+import binarySearch.BST;
+import binaryNode.Node;
 
 
 

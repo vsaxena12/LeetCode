@@ -1,6 +1,6 @@
-package binaryTree.binarySearch;
-import binaryTree.binarySearch.BST_Iteration;
-import binaryTree.binaryNode.Node;
+package binarySearch;
+import binarySearch.BST_Iteration;
+import binaryNode.Node;
 
 public interface BST
 {
