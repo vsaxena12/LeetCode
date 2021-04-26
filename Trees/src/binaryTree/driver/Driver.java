@@ -1,23 +1,46 @@
 package binaryTree.driver;
 import java.util.*;
-import binaryTree.binaryTreeConcepts.InorderIterator;
+import binaryTree.binarySearch.BST_Iteration;
+import binaryTree.binarySearch.BST;
+import binaryTree.binaryNode.Node;
+
+
 
 public class Driver
 {
 	public static void main(String[] args)
 	{
-		System.out.println("Testing...");
+		//System.out.println("Testing...");
 		//IdenticalTrees identical = new IdenticalTrees();
 		//identical.isIdenticalTest();
+		Scanner scanner = new Scanner(System.in);
+		Node root = null;
+		BST_Iteration bst = new BST_Iteration();
+		bst.insert(10);
+		bst.insert(5);
+		bst.insert(20);
+		bst.insert(8);
+		bst.insert(30);
+		bst.insert(1);
+		bst.insert(30);
+		
+		bst.inOrder(bst.root);
+		System.out.print("\n");
+		bst.preOrder(bst.root);
+		System.out.print("\n");
+		bst.postOrder(bst.root);
 
-    
-	    List<Integer> input = new ArrayList<Integer>();
-	    input.add(100);input.add(50);input.add(200);input.add(25);input.add(75);input.add(125);input.add(300);
-	    input.add(12); input.add(35); input.add(60);
-	    BinaryTreeNode root = BinaryTree.createBST(input);
-	    System.out.print("Inorder Iterator = ");
-	    System.out.println(inorderUsingIterator(root));
-	  
+		//bst.search();
+
+
+
+
+
+		bst.search(root, 30);
+
+		//System.out.println("Element: "+root);
+		
+		
 			
 	}
 }

@@ -1,3 +1,4 @@
+/*
 package binaryTree.binaryTreeConcepts;
 
 public class InorderIterator {
@@ -39,5 +40,15 @@ public class InorderIterator {
         return result;
     }
 
+    public void result()
+    {
+        List<Integer> input = new ArrayList<Integer>();
+        input.add(100);input.add(50);input.add(200);input.add(25);input.add(75);input.add(125);input.add(300);
+        input.add(12); input.add(35); input.add(60);
+        BinaryTreeNode root = BinaryTree.createBST(input);
+        System.out.print("Inorder Iterator = ");
+        System.out.println(inorderUsingIterator(root));
+    }
   
 }
+*/
