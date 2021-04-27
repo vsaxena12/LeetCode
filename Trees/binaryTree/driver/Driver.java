@@ -3,7 +3,7 @@ import java.util.*;
 import binarySearch.BST_Iteration;
 import binarySearch.BST;
 import binaryNode.Node;
-
+import binarySearch.SameTree;
 
 
 public class Driver
@@ -14,33 +14,49 @@ public class Driver
 		//IdenticalTrees identical = new IdenticalTrees();
 		//identical.isIdenticalTest();
 		Scanner scanner = new Scanner(System.in);
-		Node root = null;
-		BST_Iteration bst = new BST_Iteration();
-		bst.insert(10);
-		bst.insert(5);
-		bst.insert(20);
-		bst.insert(8);
-		bst.insert(30);
-		bst.insert(1);
-		bst.insert(30);
+		Node root1 = null;
+		Node root2 = null;
+		BST_Iteration bst1 = new BST_Iteration();
+		bst1.insert(10);
+		bst1.insert(5);
+		bst1.insert(20);
+		bst1.insert(8);
+		bst1.insert(30);
+		bst1.insert(1);
+		bst1.insert(30);
 		
-		bst.inOrder(bst.root);
+		bst1.inOrder(bst1.root);
 		System.out.print("\n");
-		bst.preOrder(bst.root);
+		bst1.preOrder(bst1.root);
 		System.out.print("\n");
-		bst.postOrder(bst.root);
+		bst1.postOrder(bst1.root);
 
 		//bst.search();
-
-
-
-
-
-		bst.search(root, 30);
-
+		System.out.println(bst1.search(44));
 		//System.out.println("Element: "+root);
 		
+		BST_Iteration bst2 = new BST_Iteration();
+		bst2.insert(10);
+		bst2.insert(5);
+		bst2.insert(20);
+		bst2.insert(8);
+		//bst2.insert(30);
+		//bst2.insert(1);
+		//bst2.insert(30);
 		
+		bst2.inOrder(bst2.root);
+		System.out.print("\n");
+		bst2.preOrder(bst2.root);
+		System.out.print("\n");
+		bst2.postOrder(bst2.root);
+		
+		SameTree tree = new SameTree();
+		if (SameTree.areIdentical(root1, root2)) {
+		      System.out.println("The trees are identical");
+		} 
+		else {
+		      System.out.println("The trees are not identical");
+		}
 			
 	}
 }

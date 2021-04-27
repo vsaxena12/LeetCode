@@ -5,6 +5,7 @@ public class BST_Iteration implements BST
 {
 	
 	public Node root = null;
+	//public Object data;
 
 	public void insert(int num)
 	{
@@ -51,51 +52,26 @@ public class BST_Iteration implements BST
 	}
 
 	
-	public Node search(Node temp, int key)
-	{
-		//Node temp = root;
-		if(temp == null)
-			return null;
-		
-		if(temp.data == key)
-		{
-			System.out.println("Print: "+temp.data);
-			return temp;
-		}
-		
-		else if(temp.data < key)
-		{
-			System.out.println(temp.data);
-			return search(root.right, key);
-		}
-		
-		else 
-		{
-			System.out.println(temp.data);
-			return search(root.left, key);
-		}
-		
-		/*
-			while(temp != null)
-			{
-				if(key == temp.getData())
-				{
-					return temp;
-				}
-				else if(key < temp.getData())
-				{
-					temp = temp.getNodeLeft();
-				}
-				else if(key > temp.getData())
-				{
-					temp = temp.getNodeRight();
-				}
-			}
-			return null;
-		*/
-		//return temp;
-
-	}
+	public boolean search(int key)  { 
+        root = search_Recursive(root, key); 
+        if (root!= null)
+        {
+        	System.out.println("Element Found: "+root.data);
+            return true;
+        }
+        else
+            return false;
+    } 
+   
+    //recursive insert function
+    Node search_Recursive(Node root, int key)  { 
+        if (root==null || root.data==key) 
+            return root; 
+        if (root.data > key) 
+            return search_Recursive(root.left, key); 
+        else
+        	return search_Recursive(root.right, key); 
+    } 
 
 
 	/*
