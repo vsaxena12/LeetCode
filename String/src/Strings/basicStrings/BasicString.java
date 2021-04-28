@@ -55,12 +55,10 @@ public class BasicString
 			System.out.println(barr[i]);  
 		}
 
-		s1="ABCDEFG";  
-		char[] ch=s1.getChar();  
-		for(int i=0;i<ch.length;i++)
-		{  
-			System.out.println(ch[i]);  
-		}
+		/*
+		 * s1="ABCDEFG"; char[] ch=s1.getChar(); for(int i=0;i<ch.length;i++) {
+		 * System.out.println(ch[i]); }
+		 */
 
 
 
