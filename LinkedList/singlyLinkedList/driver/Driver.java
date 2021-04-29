@@ -1,6 +1,6 @@
-package LinkedList.driver;
-import LinkedList.singlyLinkedList.SinglyLinkedList;
-import LinkedList.singlyLinkedList.ReverseLinkedList;
+package driver;
+import singlyLinkedList.SinglyLinkedList;
+import singlyLinkedList.ReverseLinkedList;
 
 class Driver
 {

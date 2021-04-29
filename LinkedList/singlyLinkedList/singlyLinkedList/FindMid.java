@@ -1,13 +1,13 @@
-package LinkedList.singlyLinkedList;
-import LinkedList.node.Node;
+package singlyLinkedList;
+import node.Node;
 
 //Finding middle element in a linked list
 public class FindMid
 {
 	public Node findMid(Node head)
 	{
-		ListNode hare = head;
-        ListNode tortoise = head;
+		Node hare = head;
+        Node tortoise = head;
         
         while(hare != null && hare.next != null)
         {

@@ -1,5 +1,5 @@
-package LinkedList.singlyLinkedList;
-import LinkedList.node.Node;
+package singlyLinkedList;
+import node.Node;
 
 public class SinglyLinkedList
 {
