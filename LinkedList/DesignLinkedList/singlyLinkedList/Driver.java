@@ -18,12 +18,20 @@ public class Driver {
 		System.out.println("\n");
 		
 		list.insertAtHead(60);
+		System.out.println("Insert At Head: ");
 		list.print();
 		System.out.println("\n");
 		
 		list.insertAfter(3, 35);
+		System.out.println("Insert At Node: "+3);
 		list.print();
 		System.out.println("\n");
+		
+		list.delete(60);
+		System.out.println("Deleting the Node");
+		list.print();
+		System.out.println("\n");
+		
 		
 		
 	}

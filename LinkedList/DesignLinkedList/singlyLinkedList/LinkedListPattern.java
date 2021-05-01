@@ -80,8 +80,31 @@ public class LinkedListPattern
        
     }
 	
-	
-	
+	//Deleting 
+	public void delete(int key)
+	{
+		 Node temp = head;
+		 Node previous = null;
+		 
+		 //Deleting the head
+		 if (temp != null && temp.data == key) 
+		 {
+	            head = temp.next; // Changed head
+	            return;
+	     }
+		 
+		 while (temp != null && temp.data != key) 
+		 {
+			 previous = temp;
+	         temp = temp.next;
+	     }
+		 
+		 if (temp == null)
+	            return;
+	 
+	     // Unlink the node from linked list
+		 previous.next = temp.next;
+	}
 	
 	//Print
 	public void print()
