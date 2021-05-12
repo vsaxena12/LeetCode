@@ -1,4 +1,4 @@
-package graphs;
+package BFS;
 
 public class Driver {
 
