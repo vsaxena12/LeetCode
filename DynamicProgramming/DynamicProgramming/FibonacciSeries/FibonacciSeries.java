@@ -2,16 +2,17 @@ package FibonacciSeries;
 
 public class FibonacciSeries {
 
-	public static int fibRecursion(long n)
-	{
-		if(n <= 1)
-			return 1;
-		return fibRecursion(n-1) + fibRecursion(n-2);
-	}
+	static int n = 1000;
+	static long arr[] = new long[(int) (n+2)];
+	
+	/*
+	 * public static int fibRecursion(long n) { if(n <= 1) return 1; return
+	 * fibRecursion(n-1) + fibRecursion(n-2); }
+	 */
 	
 	public static long fibDP(int n)
 	{
-		long arr[] = new long[(int) (n+2)];
+		//arr[] = new long[(int) (n+2)];
 		
 		arr[0] = 0; 
 		arr[1] = 1;
@@ -26,12 +27,24 @@ public class FibonacciSeries {
 		return arr[n];
 	}
 	
+	public static long fibMemoization(int n)
+	{
+		//arr[] = new long[(int) (n+2)];
+		if(n <= 1)
+			return n;
+		if(arr[n] != 0)
+			return arr[n];
+			
+		return arr[n]=fibMemoization(n-1) + fibMemoization(n-2);
+	}
+	
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
 		//System.out.println("Fibo Recursion: "+fibRecursion(50));
 		
 		System.out.println("Fibo Dynamic Programming: "+fibDP(50));
+		System.out.println("Fibo Dynamic Programming: "+fibMemoization(50));
 	}
 
 }
