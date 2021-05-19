@@ -1,6 +1,6 @@
 package Problems;
 
-public class ATOI {
+public class AtoI {
 	
 
 }
