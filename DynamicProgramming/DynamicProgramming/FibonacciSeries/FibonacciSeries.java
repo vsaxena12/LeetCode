@@ -43,8 +43,8 @@ public class FibonacciSeries {
 		// TODO Auto-generated method stub
 		//System.out.println("Fibo Recursion: "+fibRecursion(50));
 		
-		System.out.println("Fibo Dynamic Programming: "+fibDP(50));
-		System.out.println("Fibo Dynamic Programming: "+fibMemoization(50));
+		//System.out.println("Fibo Dynamic Programming: "+fibDP(50));
+		System.out.println("Fibo Dynamic Programming: "+fibMemoization(6));
 	}
 
 }
