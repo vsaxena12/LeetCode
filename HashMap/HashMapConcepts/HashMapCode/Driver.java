@@ -27,7 +27,7 @@ public class Driver {
 	    System.out.println(capitalCities.containsKey("Germany"));//Checks Key is present or not
 	    System.out.println(capitalCities.containsValue("Germany"));//Checks Key is present or not
 	    
-	    //HashMap Traversal
+	    //HashMapTest Traversal
 	    for (Entry<String, String> e : capitalCities.entrySet())
             System.out.println("Key: " + e.getKey()
                                + " Value: " + e.getValue());
